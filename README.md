@@ -4,7 +4,7 @@
 - [📖 OOP-SCHOOL-LIBRARY ](#-vet-clinic-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
-  - [🚀 future-feature ](#features)
+  - [ future-feature ](#features)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
