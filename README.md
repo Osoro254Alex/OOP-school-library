@@ -4,7 +4,7 @@
 - [📖 OOP-SCHOOL-LIBRARY ](#-vet-clinic-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 future-feature ](#features)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -26,7 +26,19 @@
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## future-feature <a name="features"></a>
+### feature
+
+- add Person, Student, and Teacher classes.
+- use the "Decorator" design pattern.
+- set up associations.
+
+### future
+
+- add basic UI.
+- refactor your code.
+- preserve data.
+- unit tests.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
