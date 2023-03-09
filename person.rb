@@ -1,9 +1,14 @@
-class Person
+require_relative './nameable'
+class Person < Nameable
   def initialize(id, name, age = 'Unknown', parent_permission: false)
     @id = id
     @name = name
     @age = age
     @parent_permission = parent_permission
+  end
+
+  def correct_name
+    @name
   end
 
   def display_info
