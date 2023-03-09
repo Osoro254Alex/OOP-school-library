@@ -2,7 +2,6 @@ require_relative('./baseDecorator')
 require_relative('./person')
 require_relative('./CapitalizeDecorator')
 
-
 class TrimmerDecorator < BaseDecorator
   def correct_name
     name = @nameable.correct_name
