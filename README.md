@@ -40,8 +40,6 @@
 - preserve data.
 - unit tests.
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -67,8 +65,7 @@ Clone this repository to your desired folder:
 
 - mkdir my-db
 - cd my-db
-- git clone [(https://github.com/Osoro254Alex/OOP-school-library
-.git)]
+- git clone [(https://github.com/Osoro254Alex/OOP-school-library.git)]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,8 +90,7 @@ Clone this repository to your desired folder:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Osoro254Alex/OOP-school-library
-/issues).
+Feel free to check the [issues page](https://github.com/Osoro254Alex/OOP-school-library/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
