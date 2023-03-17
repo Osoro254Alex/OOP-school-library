@@ -1,4 +1,7 @@
 require_relative './nameable'
+require_relative './capitalize_decorator'
+require_relative './trimmer_decorator'
+require_relative './rental'
 class Person < Nameable
   attr_accessor :age, :name, :rentals
   attr_reader :id
@@ -22,11 +25,12 @@ class Person < Nameable
   end
 
   def can_use_services
-    if is_of_age || @parent_permission
-      true
-    elsif !is_of_age || !@parent_permission
-      false
-    end
+    of_age? || @parent_permission
+  end
+
+  def create_object
+    object_data = { age: @age, name: @name, id: @id }
+    @object_data = object_data
   end
 
   private

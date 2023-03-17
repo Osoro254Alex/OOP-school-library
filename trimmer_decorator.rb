@@ -1,6 +1,6 @@
-require_relative('./baseDecorator')
+require_relative('./base_decorator')
 require_relative('./person')
-require_relative('./CapitalizeDecorator')
+require_relative('./capitalize_decorator')
 
 class TrimmerDecorator < BaseDecorator
   def correct_name

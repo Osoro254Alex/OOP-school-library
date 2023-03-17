@@ -1,5 +1,6 @@
 require_relative './person'
-require_relative './classroom'
+
+require 'json'
 class Student < Person
   attr_accessor :classroom
 
@@ -8,12 +9,21 @@ class Student < Person
     @classroom = classroom
   end
 
-  def add_classroom
+  def add_classroom(classroom)
     @classroom = classroom
-    classroom.add_student(self)
+    classroom.add_student(self) unless classroom.students.include?(self)
   end
 
   def play_hooky
     '¯(ツ)/¯'
+  end
+
+  def create_object
+    super()
+    object_data = @object_data
+    object_data[:classroom] = @classroom
+    object_data[:class] = 'Student'
+    object_data[:parent_permission] = @parent_permission
+    object_data
   end
 end

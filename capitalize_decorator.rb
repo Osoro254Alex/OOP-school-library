@@ -1,4 +1,4 @@
-require_relative('./baseDecorator')
+require_relative('./base_decorator')
 require_relative('./person')
 
 class CapitalizeDecorator < BaseDecorator

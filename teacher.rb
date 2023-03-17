@@ -1,4 +1,5 @@
 require_relative './person'
+require 'json'
 class Teacher < Person
   def initialize(age, name = 'Unknown', parent_permission: false, specialization: nil)
     super(age, name, parent_permission: parent_permission)
@@ -6,8 +7,14 @@ class Teacher < Person
   end
 
   def can_use_services
-    return unless (is_of_age || !is_of_age) || (@parent_permission || !@parent_permission)
-
     true
+  end
+
+  def create_object
+    super()
+    object_data = @object_data
+    object_data[:specialization] = @specialization
+    object_data[:class] = 'Teacher'
+    object_data
   end
 end

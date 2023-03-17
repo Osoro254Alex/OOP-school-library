@@ -1,4 +1,5 @@
 require_relative './student'
+require 'json'
 class Classroom
   attr_accessor :label, :students
 
