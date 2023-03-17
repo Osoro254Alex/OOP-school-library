@@ -44,9 +44,7 @@ class Rentals
         end
       else
         rentals.each do |rental|
-          if rental.person == selected_person[0]
-            puts "\e[34mDate: #{rental.date}, Book: \"#{rental.book.title}\" by #{rental.book.author}\e[0m"
-          end
+          puts "\e[34mDate: #{rental.date}, Book: \"#{rental.book.title}\" by #{rental.book.author}\e[0m" if rental.person == selected_person[0]
         end
       end
     end
