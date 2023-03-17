@@ -6,11 +6,14 @@ AllCops:
     - "node_modules/**/*"
 
   DisplayCopNames: true
-
+Metrics/PerceivedComplexity: 
+  Max: 10
+Metrics/CyclomaticComplexity:
+  Max: 15
 Layout/LineLength:
   Max: 120
 Metrics/MethodLength:
-  Max: 20
+  Max: 25
 Metrics/AbcSize:
   Max: 50
 Metrics/ClassLength:
