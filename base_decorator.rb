@@ -1,5 +1,5 @@
-require_relative './nameable'
-require_relative './person'
+require_relative 'nameable'
+
 
 class BaseDecorator < Nameable
   def initialize(nameable)

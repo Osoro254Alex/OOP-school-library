@@ -1,5 +1,4 @@
-require_relative('./base_decorator')
-require_relative('./person')
+require_relative 'base_decorator'
 
 class CapitalizeDecorator < BaseDecorator
   def correct_name
